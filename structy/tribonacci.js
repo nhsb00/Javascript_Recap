@@ -10,4 +10,6 @@ console.log(tribonacci(1));
 console.log(tribonacci(3));
 console.log(tribonacci(5));
 console.log(tribonacci(9));
+console.log(tribonacci(35));
 console.log(tribonacci(46));
+
