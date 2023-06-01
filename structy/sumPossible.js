@@ -7,6 +7,7 @@ const sumPossible = (amount, numbers) => {
     //     }
     // }
     // return false;
+    // double loop is not working because there is possible to loop mroe times
 
     if (amount === 0) return true;
 
@@ -22,3 +23,8 @@ const sumPossible = (amount, numbers) => {
     memo[amount] = false;
     return false;
 }
+
+console.log(sumPossible(8, [5, 12, 4]))
+console.log(sumPossible(15, [6, 2, 10, 19]))
+console.log(sumPossible(13, [6, 2, 1]))
+console.log(sumPossible(2017, [4, 2, 10]))
