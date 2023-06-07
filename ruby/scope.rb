@@ -11,3 +11,10 @@ end
 
 say_hello
 
+FOOD = "hamburger"
+
+def my_method
+    p FOOD
+end
+
+my_method
