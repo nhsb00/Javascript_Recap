@@ -18,3 +18,13 @@ def my_method
 end
 
 my_method
+
+3.times do
+    p food
+end
+
+if true
+    message = "bye"
+end
+
+p message
