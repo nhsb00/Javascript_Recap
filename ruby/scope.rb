@@ -28,5 +28,3 @@ if true
 end
 
 p message
-
-#ruby test
