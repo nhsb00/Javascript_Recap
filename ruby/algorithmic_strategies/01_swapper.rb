@@ -3,7 +3,11 @@
 # The method should modify the existing array and not create a new array.
 
 def swapper(arr, idx_1, idx_2)
-    arr[idx_1], arr[idx_2] = arr[idx_2], arr[idx_1]
+    # arr[idx_1], arr[idx_2] = arr[idx_2], arr[idx_1]
+    # arr
+    temp = arr[idx_1]
+    arr[idx_1] = arr[idx_2]
+    arr[idx_2] = temp
     arr
 end
 
