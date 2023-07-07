@@ -4,14 +4,17 @@
 # Do not use the built-in Array#sort
 
 def bubble_sort(arr)
+    # without sorted while 
     sorted = false
 
     while !sorted
         sorted = true
         (0...arr.length - 1).each do |i|
-            if arr[i] > arr[i + 1]
+            if arr[i] > arr[i + 1] # if the adj elements are OUT OF ORDER
                 arr[i], arr[i + 1] = arr[i + 1], arr[i]
-                sorted = false
+                sorted = false 
+                # after the iteration it checks again if the iteration is ture or false.
+                # if statement is true they will never meet sorted = false again.
             end
         end
     end
