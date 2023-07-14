@@ -12,7 +12,9 @@ class ListNode {
 
 var addTwoNumbers = function (l1, l2) {
     let carry = 0;
-  
+    let previousNode = new ListNode();
+    const headNode = previousNode;
+    
     while(l1 || l2 || carry) {
     // while either l1 is not null or l2 is not null        
     // l1 or l2 could be null before applying update condition we need if statement to set next node
@@ -30,6 +32,9 @@ var addTwoNumbers = function (l1, l2) {
         let sum = val1 + val2 + carry;
         carry = Math.floor(sum / 10);//sum > 9 ? 1 : 0 handle carried over
         let digit = sum % 10;
+        const currentNode = new ListNode(digit); //define current node
+        previousNode.next = currentNode;
+        previousNode = currentNode;
        
     }
     return headNode.next;
