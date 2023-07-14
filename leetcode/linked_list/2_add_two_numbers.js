@@ -5,6 +5,13 @@
 var addTwoNumbers = function (l1, l2) {
     while(l1 || l2) {
     // while either l1 is not null or l2 is not null        
+    // l1 or l2 could be null before applying update condition we need if statement to set next node
+        if (l1) {
+            l1 = l1.next;
+        }
+        if (l2) {
+            l2 = l2.next;
+        }
     }
 };
 
