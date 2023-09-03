@@ -3,3 +3,6 @@
 // itself, as well as any nested arrays (no matter how deeply nested) are duped 
 // and are completely different objects in memory than those in the original 
 // array.
+function deepDup(arr) {
+    arr.map(el => el instanceof Array ? deepDup(el): el);
+}

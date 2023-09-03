@@ -12,3 +12,15 @@
 // Examples: 
 // caesarCipher(“abc”, 2) => “cde”
 // caesarCipher(“xyz”, 1) => “yza"
+
+function caesarCipher (str, shift) {
+    const alphabet = "abcdefghijklmnopqrstuvwxyz".split('');
+    let encoded = "";
+
+    for (let i = 0; i < str.length; i++) {
+        const offset = (alphabet.indexOf(str[i] + shift)) % (alphabet.length);
+        
+        encoded += alphabet[offset];
+    }
+    return encoded;
+}
