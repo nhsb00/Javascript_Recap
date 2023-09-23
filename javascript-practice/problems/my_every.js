@@ -3,3 +3,4 @@
 // returns false. Use the `Array.prototype.myEach` method you defined above. Do 
 // NOT call the built-in `Array.prototype.every` or `Array.prototype.forEach` 
 // methods.
+//

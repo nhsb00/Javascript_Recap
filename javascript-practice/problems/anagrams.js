@@ -6,7 +6,7 @@
 // Examples:
 // anagrams('listen', 'silent') => true
 // anagrams('listen', 'potato') => false
-
+//
 function anagrams (str1, str2) {
     // let a = str1.split("").sort().join("");
     // let b = str2.split("").sort().join("");

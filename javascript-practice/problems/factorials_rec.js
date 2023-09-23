@@ -9,3 +9,4 @@ function factorialsRec(num) {
     facts.push(facts[facts.length - 1] * (num - 1));
     return facts;
 }
+//

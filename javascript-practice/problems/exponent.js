@@ -7,3 +7,4 @@ function exponent (b, n) {
         return 1/b * exponent(b, n + 1);
     }
 }
+//

@@ -4,3 +4,4 @@
 // accumulator. Use the `Array.prototype.myEach` method you defined above. Do 
 // NOT call in the built-in `Array.prototype.reduce` or `Array.prototype.forEach` 
 // methods.
+//

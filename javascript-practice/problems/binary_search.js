@@ -9,6 +9,7 @@
 // return its index. Otherwise, recursively search either the left or the right
 // half of the array until the target is found or the base case (empty array) is
 // reached.
+//
 function binarySearch(arr, target) {
     const midpoint = Math.floor(arr.length / 2);
 

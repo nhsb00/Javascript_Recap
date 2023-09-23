@@ -4,3 +4,4 @@
 // ex. 
 // `abcde`.mySlice(2) => `cde`
 // `abcde`.mySlice(1, 3) => `bc`
+//
